@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0740279F1D8A43D900D60FBC /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0740279E1D8A43D900D60FBC /* Enemy.swift */; };
+		074027A11D8A461C00D60FBC /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074027A01D8A461C00D60FBC /* Kimara.swift */; };
+		074027A31D8A47A200D60FBC /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074027A21D8A47A200D60FBC /* DevilWizard.swift */; };
 		07E3FC8E1D8797E200C508C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E3FC8D1D8797E200C508C1 /* AppDelegate.swift */; };
 		07E3FC901D8797E200C508C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E3FC8F1D8797E200C508C1 /* ViewController.swift */; };
 		07E3FC931D8797E200C508C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E3FC911D8797E200C508C1 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		07E3FC981D8797E200C508C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E3FC961D8797E200C508C1 /* LaunchScreen.storyboard */; };
 		07E3FCA31D8797E200C508C1 /* rpgappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E3FCA21D8797E200C508C1 /* rpgappTests.swift */; };
 		07E3FCAE1D8797E200C508C1 /* rpgappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E3FCAD1D8797E200C508C1 /* rpgappUITests.swift */; };
+		07E3FCBE1D87A20000C508C1 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E3FCBD1D87A20000C508C1 /* Character.swift */; };
+		07E3FCC01D87A3F900C508C1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E3FCBF1D87A3F900C508C1 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0740279E1D8A43D900D60FBC /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		074027A01D8A461C00D60FBC /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		074027A21D8A47A200D60FBC /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 		07E3FC8A1D8797E200C508C1 /* rpgapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rpgapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E3FC8D1D8797E200C508C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07E3FC8F1D8797E200C508C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,8 @@
 		07E3FCA91D8797E200C508C1 /* rpgappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rpgappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E3FCAD1D8797E200C508C1 /* rpgappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rpgappUITests.swift; sourceTree = "<group>"; };
 		07E3FCAF1D8797E200C508C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E3FCBD1D87A20000C508C1 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		07E3FCBF1D87A3F900C508C1 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				07E3FC941D8797E200C508C1 /* Assets.xcassets */,
 				07E3FC961D8797E200C508C1 /* LaunchScreen.storyboard */,
 				07E3FC991D8797E200C508C1 /* Info.plist */,
+				07E3FCBD1D87A20000C508C1 /* Character.swift */,
+				07E3FCBF1D87A3F900C508C1 /* Player.swift */,
+				0740279E1D8A43D900D60FBC /* Enemy.swift */,
+				074027A01D8A461C00D60FBC /* Kimara.swift */,
+				074027A21D8A47A200D60FBC /* DevilWizard.swift */,
 			);
 			path = rpgapp;
 			sourceTree = "<group>";
@@ -256,6 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E3FCC01D87A3F900C508C1 /* Player.swift in Sources */,
+				0740279F1D8A43D900D60FBC /* Enemy.swift in Sources */,
+				074027A31D8A47A200D60FBC /* DevilWizard.swift in Sources */,
+				074027A11D8A461C00D60FBC /* Kimara.swift in Sources */,
+				07E3FCBE1D87A20000C508C1 /* Character.swift in Sources */,
 				07E3FC901D8797E200C508C1 /* ViewController.swift in Sources */,
 				07E3FC8E1D8797E200C508C1 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +504,7 @@
 				07E3FCB41D8797E200C508C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07E3FCB51D8797E200C508C1 /* Build configuration list for PBXNativeTarget "rpgappTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +513,7 @@
 				07E3FCB71D8797E200C508C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07E3FCB81D8797E200C508C1 /* Build configuration list for PBXNativeTarget "rpgappUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +522,7 @@
 				07E3FCBA1D8797E200C508C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
